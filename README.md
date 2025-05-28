@@ -1,2 +1,4 @@
 # Maze-Solver-
-This is a Maze Solver built in Python and Pygame. It's approximateky level 4 complex due to the algorithms complexity.
+This is a Maze Solver built in Python and Pygame. This is a game where the player navigates a dynamically changing maze that grows in complexiity after very win or every loss. Also, the players speed increase as the game advances so are the maze complexity, which is ehat makes the game FUN! 
+Features include: Every maze is unique, as I used random algorith maze generation, the speed adjustment after a win/loss, the cintinuously generated mazes and not to forget shifting walls as well.
+How to play: We have two players a red player which is the main player, and a blue player.  Navigate the maze using arrow keys(up,down,left and right).  Walls randomly shift every few moves, forcing the player to adapt to the new maze. When the red player reaches the blue player(the exit), it marks the end of a maze and puts them to the next level where the speed will be increased, and the maze will be more complex. Game continues endlessly—no two mazes are identical!
